@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Created index Page to accept text entries.  Clicking 'Send' button fires Ajax call.
+-->
+    <head>
+        <title>Sample Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <form id="DailyLogForm" onsubmit="return submitForm();">
+            <h1 class="title">Contents</h1>
+	        
+		<input type="text" name="name" required="required" placeholder="Your Name" aria-describedby="name-format" pattern="[a-zA-Z\s]+"  title="Text">
+				            
+		<textarea name="message" cols="20" rows="5" required="required" placeholder="Message"></textarea>
+		
+                <input id="submit" name="submit" type="submit" value="Send">
+                
+                <!-- to display success message -->
+                <div class="result"> </div>
+        </form>
+        
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+
+    </body>
+</html>
