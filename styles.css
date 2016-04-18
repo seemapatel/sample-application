@@ -1,0 +1,60 @@
+/*
+* Created By: Seema Patel
+* Created On: 16 April 2016
+* 
+*/
+
+h1
+{
+font-size: 28px;
+color: #080000;
+}
+
+/* To center align the page */
+.body {
+    display:block;
+    margin:0 auto;
+    width:600px;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 18px;
+    color: #999;
+}
+
+/* To center align the form on the page*/
+form 
+{
+   margin:0 auto;
+   width:500px;
+}
+
+/* Textbox styling */
+input, textarea, file {
+        font-family: inherit;
+        font-size: 18px;
+	width:439px;
+	height:27px;
+	background-color:#efefef;
+	border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:20px;
+	color:#3a3a3a;
+}
+
+/* Textarea styling */	
+textarea 
+{
+	height:200px;
+}
+
+/* To style the submit/send button */
+#submit {
+	margin: 0 auto;
+	width:127px;
+	height:48px;
+	text-align: center;
+	border:none;
+	margin-top:20px;
+}
+
+
